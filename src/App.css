@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    /* color:black; */
+    font-weight: 900;
+    font-family: cursive;
+}
+
+/* #root{
+    height:100%;
+} */
+
+.bg-img{
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+}
+
+.day{
+    background-image: url('./assests/day.jpg');
+    /* background-color: white; */
+    transition: 1s all ease-in-out;
+}
+
+.clouds{
+    background-image: url('./assests/clouds.jpg');
+    transition: 1s all ease-in-out;
+}
+
+.rainy{
+    background-image: url('./assests/rainy.jpg');
+    color:white;
+    transition: 1s all ease-in-out;
+}
+
+.sunset{
+    background-image: url('./assests/sunset.jpg');
+    color:white;
+    transition: 1s all ease-in-out;
+}
+
+.sunrise{
+    background-image: url('./assests/sunrise.jpg');
+    color:white;
+    transition: 1s all ease-in-out;
+}
+
+.night{
+    background-image: url('./assests/night.jpg');
+    color:white;
+    transition: 1s all ease-in-out;
+}
+
+.thunderstrom{
+    background-image: url('./assests/thunderstrom.jpg');
+    transition: 1s all ease-in-out;
+}
+
+.thunderstrom-night{
+    background-image: url('./assests/thundernight.jpg');
+    transition: 1s all ease-in-out;
+}
+
+.drizzle{
+    background-image: url('./assests/drizzle.jpg');
+    transition: 1s all ease-in-out;
+}
+
+.mist{
+    background-image: url('./assests/mist.jpg');;
+    transition: 1s all ease-in-out;
+}
+
+main{
+    background-image: linear-gradient(to bottom, #00000078,#0000000d)
+}
